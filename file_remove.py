@@ -19,6 +19,6 @@ def delete_folder_files(folder_path):
     except Exception as e:
         print(f'Error : {e}')
 
-folder_path = "path"
+folder_path = "path//to//your//folder"
 
 delete_folder_files(folder_path)
